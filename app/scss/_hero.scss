@@ -1,0 +1,76 @@
+.hero{
+  min-height: 289px;
+  
+  max-width: 690px;
+
+  h1{
+    font-family: Young Serif;
+    font-weight: 120;
+    font-size: 2.5rem;
+    color: $DarkCharcoal;
+  }
+
+  .prep{
+    background-color: $RoseWhite;
+    min-height: 192px;
+    padding: 29px;
+    border-radius: 25px;
+    h3{
+      color: $DarkRaspberry;
+    }
+
+    ul{
+      li{
+        margin: 20px;
+        span{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .ingredients, .instructions{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2{
+      font-family: Young serif;
+      color: $WengeBrown;
+    }
+    ul,ol{
+      li{
+        margin-top: 14px;
+      }
+    }
+    border-bottom: solid $LightGrey 1px;
+  }
+
+  .nutrition{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2{
+      font-family: Young serif;
+      color: $WengeBrown;
+    }
+    .la{
+      text-align: left;
+      border-bottom: none;
+    }
+    p{
+      text-align: center;
+      border-bottom: solid $LightGrey 1px;
+      padding-bottom: 20px;
+
+      
+      span{
+        margin-left: 100px;
+      }
+
+    }
+  }
+
+  
+
+  
+}
+

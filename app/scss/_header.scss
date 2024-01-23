@@ -1,0 +1,26 @@
+
+
+header{
+  
+
+  @include breakpoint-up(medium){
+  
+    padding: 29px;
+  
+  }
+}
+
+
+
+
+.headimg{
+  min-height: 172px;
+  max-width: 645px;
+  img{
+  @include breakpoint-up(medium){
+  
+    border-radius: 29px;
+  
+  }
+}
+}
